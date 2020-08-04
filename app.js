@@ -5,9 +5,7 @@ let i = 0;
 setInterval(() => {
     text.innerText = subhead.slice(0, i);
     i++;
-    if (i > subhead.length)
-        i = 1;
-}, 100)
+}, 200)
 
 const fox = document.getElementById('fox');
 const dog = document.getElementById('dog');
